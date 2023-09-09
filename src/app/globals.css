@@ -1,27 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Manrope&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.btn {
+  @apply bg-Eucaplyptus px-4 py-2 capitalize font-manrope text-Dark-Purple font-bold border-2 border-Eucaplyptus hover:border-Eucaplyptus hover:bg-Dark-Purple hover:text-Eucaplyptus hover:border-2 transition-all cursor-pointer text-[16px] ;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.btn-2 {
+    @apply border-b-2 border-Eucaplyptus hover:text-Eucaplyptus text-white transition-all cursor-pointer text-[16px];
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.custom-shape-divider-bottom-1693026179 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1693026179 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 85px;
+}
+
+.custom-shape-divider-bottom-1693026179 .shape-fill {
+    fill: #FCF8FF;
+}
+
+.img-bg-mobile {
+   @apply  w-full h-full object-top flex items-start justify-start sm:hidden lg:hidden md:hidden ;
+}
+
+.img-bg-desktop {
+    @apply w-auto h-full object-center hidden sm:block lg:block md:hidden;
+}
+
+.img-bg-tab {
+    @apply w-auto h-full object-center hidden sm:hidden md:block  lg:hidden;
+}
+
+.section {
+    @apply w-screen h-screen ;
+}
+
+.section-1 {
+    @apply w-screen h-[80vh];
 }
