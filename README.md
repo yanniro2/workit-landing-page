@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Workit Landing Page Challenge
+
+![Design preview for the Workit landing page coding challenge](./Source/Images/preview.jpg)
+
+## Introduction
+
+Welcome to my solution for the Workit Landing Page Challenge from Frontend Mentor. In this project, I had the opportunity to showcase my frontend development skills by creating a responsive and visually appealing landing page based on the provided design.
+
+[Live Demo](#) | [Frontend Mentor Challenge](https://yanniro2.github.io/workit-landing-page)
+
+## Project Overview
+
+### Challenge Details
+
+- Task: Create a responsive landing page according to the provided design.
+- Key Requirements: Ensure responsiveness across different screen sizes and implement hover and focus states for interactive elements.
+
+### Technologies Used
+
+- HTML5
+- CSS3
+- CSS Grid for layout
+- Flexbox for element positioning
+- Google Fonts for typography
+
+## Project Highlights
+
+- Achieved pixel-perfect replication of the design.
+- Implemented responsive design for mobile, tablet, and desktop screen sizes.
+- Utilized CSS Grid and Flexbox for efficient layout and positioning.
+- Ensured accessibility and interactive user experience.
+
+## Project Structure
+
+The project is structured as follows:
+
+- `/assets`: Contains all project assets, including images and fonts.
+- `/css`: Contains the project's CSS files.
+- `index.html`: The HTML file for the landing page.
+- `styles.css`: The main CSS file for styling.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone this repository to your local machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+2. Install the necessary dependencies using `npm install`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Start the development server with `npm run dev`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Open your web browser and navigate to `http://localhost:3000` to view the project.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
 
-## Learn More
+Feel free to customize this project for your specific needs and add your own data to the external data file.
 
-To learn more about Next.js, take a look at the following resources:
+## Project Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Screenshot 1](./Source/Images/preview.jpg)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the [MIT License](LICENSE).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Author
+
+- [Niroyan.K](https://github.com/yanniro2)
+
+## View More Projects
+
+Explore more of my projects on [Upwork](https://www.upwork.com/fl/niroyank).
