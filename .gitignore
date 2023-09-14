@@ -33,3 +33,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+<<<<<<< HEAD
+=======
+
+# Local Netlify folder
+.netlify
+>>>>>>> 96f3826 (first commit)
