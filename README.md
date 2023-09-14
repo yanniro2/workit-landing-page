@@ -6,11 +6,7 @@
 
 Welcome to my solution for the Workit Landing Page Challenge from Frontend Mentor. In this project, I had the opportunity to showcase my frontend development skills by creating a responsive and visually appealing landing page based on the provided design.
 
-<<<<<<< HEAD
-[Live Demo](#) | [Frontend Mentor Challenge](https://yanniro2.github.io/workit-landing-page)
-=======
-[Live Demo](https://yanniro2.github.io/workit-landing-page)
->>>>>>> 96f3826 (first commit)
+[Live Demo](https://workit-landing-page-pxee7f8fc-yanniro2.vercel.app/)
 
 ## Project Overview
 
